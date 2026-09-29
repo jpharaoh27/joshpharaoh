@@ -20,6 +20,14 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
     <link rel="manifest" href="assets/icons/site.webmanifest" />
 
+    <!-- Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "dwm1oreh96");
+   </script>
 
 </head>
 
@@ -47,6 +55,7 @@
                 class="nav-linkedin"
                 target="_blank"
                 rel="noopener noreferrer"
+                onclick="clarity('event', 'linkedin_click')"
             >
                 LinkedIn <span>↗</span>
             </a>
@@ -56,6 +65,7 @@
                 class="nav-cv"
                 target="_blank"
                 rel="noopener noreferrer"
+                onclick="clarity('event', 'cv_download')"
             >
                 Download CV <span>↗</span>
             </a>
@@ -675,6 +685,8 @@
                         class="contact-link"
                         target="_blank"
                         rel="noopener noreferrer"
+                        onclick="clarity('event', 'linkedin_click')"
+                        
                     >
                         <span>LinkedIn</span>
                         <span>↗</span>
@@ -685,6 +697,7 @@
                         class="contact-link"
                         target="_blank"
                         rel="noopener noreferrer"
+                        onclick="clarity('event', 'github_click')"
                     >
                         <span>GitHub</span>
                         <span>↗</span>
@@ -695,6 +708,7 @@
                         class="contact-link"
                         target="_blank"
                         rel="noopener noreferrer"
+                        onclick="clarity('event', 'email_click')"
                     >
                         <span>Email Me</span>
                         <span>↗</span>
@@ -705,6 +719,7 @@
                         class="contact-link"
                         target="_blank"
                         rel="noopener noreferrer"
+                        onclick="clarity('event', 'cv_download')"
                     >
                         <span>Download CV</span>
                         <span>↗</span>
